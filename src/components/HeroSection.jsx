@@ -29,10 +29,7 @@ export const HeroSection = () => {
                         Desarrollador Web Frontend Junior
                     </h2>
                     <p className="mb-6 text-gray-400 leading-relaxed">
-                        Soy un desarrollador autodidacta enfocado en crear aplicaciones web
-                        funcionales y modernas. Me especializo en JavaScript, React y desarrollo
-                        frontend, con interés en backend y arquitectura de software, AI Workflows,
-                        adaptación a nuevas tecnologías y rápido aprendizaje.
+                        Desarrollador web enfocado en crear aplicaciones modernas, funcionales y escalables. Especializado en JavaScript y React, con experiencia integrando APIs y construyendo interfaces eficientes. Interesado en backend, arquitectura de software y automatización con AI workflows.
                         </p>
                         <div className="flex flex-wrap gap-3">
                             {stack.map((tech) => (
