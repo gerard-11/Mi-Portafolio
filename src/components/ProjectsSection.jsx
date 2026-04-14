@@ -35,7 +35,7 @@ export const ProjectsSection = () => {
                 >
                     <div className="relative">
                         <img
-                            src="/src/assets/baseball-app.png"
+                            src={BassebalAppFoto}
                             alt="Proyecto Baseball Analytics"
                             className="w-full h-60 object-cover group-hover:scale-105 transition duration-300"
                         />
