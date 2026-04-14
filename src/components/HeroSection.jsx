@@ -1,3 +1,5 @@
+import FotoGer from "../assets/foto de presentacion.jpeg"
+
 export const HeroSection = () => {
     const stack=[
         "JavaScript",
@@ -15,7 +17,7 @@ export const HeroSection = () => {
                 <div className="flex mt-2 md:mb-4 justify-center order-1 md:order-2">
                     <div className="w-40 h-40 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-400 shadow-lg group transition duration-300 hover:shadow-blue-500/50 hover:scale-105">
                         <img
-                            src="/src/assets/foto de presentacion.jpeg"
+                            src={FotoGer}
                             alt="Foto de Gerardo"
                             className="w-full h-full object-cover transition duration-500 ease-out group-hover:scale-110"
                         />
