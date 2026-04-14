@@ -1,3 +1,6 @@
+import Pelis4uFoto from "../assets/pelis4u-app.png"
+import BassebalAppFoto from "../assets/baseball-app.png"
+
 export const ProjectsSection = () => {
     return (
         <>
@@ -11,7 +14,7 @@ export const ProjectsSection = () => {
                 >
                     <div className="relative ">
                         <img
-                            src="/src/assets/pelis4u-app.png"
+                            src={Pelis4uFoto}
                             alt="Proyecto Pelis4U"
                             className="w-full h-60 object-cover group-hover:scale-105 transition duration-300"
                         />

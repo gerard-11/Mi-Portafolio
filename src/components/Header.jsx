@@ -5,16 +5,14 @@ export const Header = () => {
     return (
         <header className="sticky top-0 z-50 flex justify-between items-center bg-gray-900/80 backdrop-blur-md px-6 py-3 border-b border-gray-700 shadow-md">
 
-            {/* LEFT */}
             <div className="flex items-center gap-3">
 
-                {/* AVATAR */}
+
                 <div className="flex items-center justify-center rounded-full bg-blue-500 text-white font-semibold w-10 h-10 md:w-12 md:h-12 text-sm md:text-base shadow-md
         transition duration-300 hover:scale-110 hover:shadow-blue-500/50 cursor-pointer">
                     GR
                 </div>
 
-                {/* NAME */}
                 <div className="leading-tight">
                     <h1 className="text-sm md:text-base font-semibold text-white">
                         Gerardo Rito
