@@ -10,6 +10,7 @@ export const HeroSection = () => {
         "TanStack Query",
         "API REST",
         "JWT",
+        "Docker"
     ]
     return (
         <section className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-6">
@@ -31,8 +32,10 @@ export const HeroSection = () => {
                         Desarrollador Web Frontend Junior
                     </h2>
                     <p className="mb-6 text-gray-400 leading-relaxed">
-                        Desarrollador web enfocado en crear aplicaciones modernas, funcionales y escalables. Especializado en JavaScript y React, con experiencia integrando APIs y construyendo interfaces eficientes. Interesado en backend, arquitectura de software y automatización con AI workflows.
-                        </p>
+                      Web Developer focused on building modern, functional, and scalable applications. 
+  Specialized in JavaScript and React, with experience integrating APIs and building efficient interfaces. 
+  Skilled in connecting databases using Docker for streamlined development. 
+  Interested in backend development, software architecture, and AI-powered automation workflows.</p>
                         <div className="flex flex-wrap gap-3">
                             {stack.map((tech) => (
                                 <span
