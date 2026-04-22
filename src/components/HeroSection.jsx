@@ -26,10 +26,10 @@ export const HeroSection = () => {
                 </div>
                 <div className="order-2 md:order-1">
                     <h1 className="text-3xl md:text-5xl font-bold mb-4">
-                        Hola, soy <span className="text-blue-400">Gerardo</span> 👋
+                       Hi there, I'm <span className="text-blue-400">Gerardo J.</span> 👋
                     </h1>
                     <h2 className="text-lg md:text-2xl mb-6 text-gray-300">
-                        Desarrollador Web Frontend Junior
+                        Junior Web Developer
                     </h2>
                     <p className="mb-6 text-gray-400 leading-relaxed">
                       Web Developer focused on building modern, functional, and scalable applications. 
