@@ -10,7 +10,6 @@ export const HeroSection = () => {
         "TanStack Query",
         "API REST",
         "JWT",
-        "Docker"
     ]
     return (
         <section className="min-h-screen flex items-center justify-center bg-gray-900 text-white px-6">
