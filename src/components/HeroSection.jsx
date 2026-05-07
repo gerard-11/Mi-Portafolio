@@ -6,10 +6,10 @@ export const HeroSection = () => {
         "JavaScript",
         "CSS3",
         "Tailwind CSS",
-        "HTML5",
         "Responsive Design",
-        "TanStack Query",
         "REST APIs",
+        "AI-Assisted Development",
+        "Component Architecture",
     ]
     return (
         <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-950 via-gray-950 to-gray-900 text-white px-4 py-12 md:py-0 md:px-6">
@@ -53,8 +53,8 @@ export const HeroSection = () => {
                     <p className="mb-6 md:mb-8 text-sm md:text-base text-gray-400 leading-relaxed">
                         Frontend Developer passionate about creating modern, functional, and scalable user interfaces.
                         Specialized in React and JavaScript with expertise in API integration and responsive design.
-                        Building efficient, performant applications with focus on user experience.
-                        Also have knowledge of backend technologies to understand the full development lifecycle.
+                        Leveraging AI tools to accelerate development workflows and improve code quality.
+                        Building efficient, performant applications with focus on UX. Full development lifecycle understanding.
                     </p>
 
                     {/* TECH STACK */}

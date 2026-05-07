@@ -4,23 +4,23 @@ export const SkillsSection = () => {
     const skillCategories = [
         {
             icon: FaCode,
-            title: "Frontend",
-            skills: ["React", "JavaScript ES6+", "CSS3", "Tailwind CSS", "Responsive Design", "Component Architecture"]
+            title: "Frontend Expertise",
+            skills: ["React", "JavaScript ES6+", "CSS3", "Tailwind CSS", "Responsive Design", "Component Architecture", "Web Performance"]
         },
         {
             icon: FaServer,
-            title: "Backend (Learning)",
-            skills: ["Node.js", "Express", "REST APIs", "JWT Auth", "API Integration"]
+            title: "Backend & APIs",
+            skills: ["Node.js", "Express", "REST APIs", "JWT Auth", "API Integration", "Data Fetching"]
         },
         {
             icon: FaDatabase,
-            title: "Databases",
-            skills: ["PostgreSQL", "Prisma ORM", "Data Fetching", "TanStack Query"]
+            title: "Data & Databases",
+            skills: ["PostgreSQL", "Prisma ORM", "TanStack Query", "State Management", "Data Modeling"]
         },
         {
             icon: FaTools,
-            title: "Tools & Version Control",
-            skills: ["Git", "GitHub", "npm/yarn", "Vite", "Vercel Deployment"]
+            title: "Modern Tools & AI",
+            skills: ["Git/GitHub", "Vite", "Docker", "Vercel", "AI-Assisted Coding", "Dev Automation"]
         },
     ]
 

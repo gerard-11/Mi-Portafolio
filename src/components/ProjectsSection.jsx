@@ -45,7 +45,7 @@ export const ProjectsSection = () => {
                         </span>
                     </h2>
                     <p className="text-gray-400 text-sm md:text-base max-w-2xl mx-auto">
-                        Cutting-edge applications built with modern tech stack, focusing on performance, scalability, and user experience.
+                        Modern, scalable applications built with cutting-edge tech stack. Leveraging AI tools to accelerate development and improve code quality. Focus on performance, UX, and clean architecture.
                     </p>
                 </div>
 
