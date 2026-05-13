@@ -1,6 +1,6 @@
 import Pelis4uFoto from "../assets/pelis4u-app.png"
 import BassebalAppFoto from "../assets/baseball-app.png"
-import SisRef from "../assets/sis-ref.png"
+import referixImg from "../assets/referixImg.png"
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
 
 export const ProjectsSection = () => {
@@ -22,11 +22,11 @@ export const ProjectsSection = () => {
             tech: ["React", "dnd-kit", "API REST", "Vite"],
         },
         {
-            title: "Referral Manager",
-            image: SisRef,
-            url: "#",
+            title: "Referix App",
+            image: referixImg,
+            url: "https://referral-engine-web-ashen.vercel.app/",
             github: "https://github.com",
-            description: "[IN DEVELOPMENT] Enterprise referral management system. Full stack with React, Zustand, TanStack Query frontend and NestJS, Prisma, PostgreSQL backend. Docker-based deployment.",
+            description: "Enterprise referral management system. Full stack with React, Zustand, TanStack Query frontend and NestJS, Prisma, PostgreSQL backend. Docker-based deployment.",
             tech: ["React", "NestJS", "PostgreSQL", "Docker"],
         },
     ]
