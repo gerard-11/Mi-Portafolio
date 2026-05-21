@@ -1,6 +1,7 @@
 import Pelis4uFoto from "../assets/pelis4u-app.png"
 import BassebalAppFoto from "../assets/baseball-app.png"
 import referixImg from "../assets/referixImg.png"
+import automotrizImg from "../assets/RianAutomotriz.png"
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
 
 export const ProjectsSection = () => {
@@ -28,7 +29,22 @@ export const ProjectsSection = () => {
             github: "https://github.com",
             description: "Enterprise referral management system. Full stack with React, Zustand, TanStack Query frontend and NestJS, Prisma, PostgreSQL backend. Docker-based deployment.",
             tech: ["React", "NestJS", "PostgreSQL", "Docker"],
-        },
+        }, {
+            title: "Rian Automotriz",
+            image: automotrizImg,
+            url: "https://d1izlucman0v9u.cloudfront.net/",
+            github: "https://github.com",
+            description:
+                "Automotive business web platform deployed on AWS using S3 and CloudFront with automated CI/CD pipelines through GitHub Actions. Built with React and Vite, featuring optimized static hosting, CDN distribution, HTTPS delivery, and automated production deployments on every push.",
+            tech: [
+                "React",
+                "Vite",
+                "AWS S3",
+                "CloudFront",
+                "GitHub Actions",
+                "CI/CD"
+            ],
+        }
     ]
 
     return (
@@ -50,7 +66,7 @@ export const ProjectsSection = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-                    {projects.map((project, idx) => (
+                    {projects.reverse().map((project, idx) => (
                         <div
                             key={project.title}
                             className="group h-full fade-up"
