@@ -47,8 +47,7 @@ export const HeroSection = () => {
                     </h1>
 
                     <h2 className="text-lg md:text-2xl mb-4 md:mb-6 text-gray-400 font-light">
-                        Building beautiful, responsive web interfaces
-                    </h2>
+Building scalable business applications with modern frontend, backend, and AI-powered development                    </h2>
 
                     <p className="mb-6 md:mb-8 text-sm md:text-base text-gray-400 leading-relaxed">
                         Frontend Developer passionate about creating modern, functional, and scalable user interfaces.
