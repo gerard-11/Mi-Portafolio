@@ -2,6 +2,7 @@ import Pelis4uFoto from "../assets/pelis4u-app.png"
 import BassebalAppFoto from "../assets/baseball-app.png"
 import referixImg from "../assets/referixImg.png"
 import automotrizImg from "../assets/RianAutomotriz.png"
+import consultoriaDihImg from "../assets/consultoria-dih.svg"
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
 
 export const ProjectsSection = () => {
@@ -44,6 +45,14 @@ export const ProjectsSection = () => {
                 "GitHub Actions",
                 "CI/CD"
             ],
+        },
+        {
+            title: "Consultoria DIH",
+            image: consultoriaDihImg,
+            url: "https://consultoria-dih.vercel.app/",
+            description:
+                "Professional consulting website built with Next.js, focused on SEO, clear service presentation, responsive layouts, and conversion-oriented contact flows. Deployed on Vercel with a polished frontend experience for client acquisition.",
+            tech: ["Next.js", "SEO", "Vercel", "Responsive UI"],
         }
     ]
 
@@ -108,14 +117,16 @@ export const ProjectsSection = () => {
                                         >
                                             <FaExternalLinkAlt size={12} /> Live
                                         </a>
-                                        <a
-                                            href={project.github}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="flex-1 flex items-center justify-center gap-2 px-3 py-2 text-xs md:text-sm bg-gray-800/50 text-gray-300 border border-gray-700/50 rounded transition duration-300 hover:bg-gray-800 hover:border-gray-600 hover:text-gray-100"
-                                        >
-                                            <FaGithub size={12} /> Code
-                                        </a>
+                                        {project.github && (
+                                            <a
+                                                href={project.github}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="flex-1 flex items-center justify-center gap-2 px-3 py-2 text-xs md:text-sm bg-gray-800/50 text-gray-300 border border-gray-700/50 rounded transition duration-300 hover:bg-gray-800 hover:border-gray-600 hover:text-gray-100"
+                                            >
+                                                <FaGithub size={12} /> Code
+                                            </a>
+                                        )}
                                     </div>
                                 </div>
                             </div>

@@ -3,6 +3,7 @@ import FotoGer from "../assets/foto de presentacion.jpeg"
 export const HeroSection = () => {
     const stack=[
         "React",
+        "Next.js",
         "JavaScript",
         "CSS3",
         "Tailwind CSS",

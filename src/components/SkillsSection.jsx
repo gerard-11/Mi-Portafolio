@@ -5,7 +5,7 @@ export const SkillsSection = () => {
         {
             icon: FaCode,
             title: "Frontend Expertise",
-            skills: ["React", "JavaScript ES6+", "CSS3", "Tailwind CSS", "Responsive Design", "Component Architecture", "Web Performance"]
+            skills: ["React", "Next.js", "JavaScript ES6+", "CSS3", "Tailwind CSS", "Responsive Design", "Component Architecture", "Web Performance"]
         },
         {
             icon: FaServer,
