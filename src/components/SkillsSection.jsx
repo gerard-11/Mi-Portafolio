@@ -10,7 +10,7 @@ export const SkillsSection = () => {
         {
             icon: FaServer,
             title: "Backend & APIs",
-            skills: ["Node.js", "Express", "REST APIs", "JWT Auth", "API Integration", "Data Fetching"]
+            skills: ["Node.js", "NestJS", "Express", "REST APIs", "JWT Authentication", "Socket.io (WebSocket)", "Real-time Communication", "API Integration"]
         },
         {
             icon: FaDatabase,
@@ -20,7 +20,7 @@ export const SkillsSection = () => {
         {
             icon: FaTools,
             title: "Modern Tools & AI",
-            skills: ["Git/GitHub", "Vite", "Docker", "Vercel", "AI-Assisted Coding", "Dev Automation"]
+            skills: ["Git/GitHub", "Vite", "Docker & Docker Compose", "Vercel", "Railway", "Monorepo Architecture", "AI-Assisted Coding", "TypeScript"]
         },
     ]
 
