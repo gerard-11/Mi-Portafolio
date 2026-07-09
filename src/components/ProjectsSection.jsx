@@ -4,6 +4,7 @@ import referixImg from "../assets/referixImg.png"
 import automotrizImg from "../assets/RianAutomotriz.png"
 import consultoriaDihImg from "../assets/consultoria-dih.svg"
 import boutiqueEstefanyImg from "../assets/boutique-estefany-login.webp"
+import callCenterImg from "../assets/call-center-dashboard.svg"
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
 
 export const ProjectsSection = () => {
@@ -65,7 +66,19 @@ export const ProjectsSection = () => {
             description:
                 "Professional consulting website built with Next.js, focused on SEO, clear service presentation, responsive layouts, and conversion-oriented contact flows. Deployed on Vercel with a polished frontend experience for client acquisition.",
             tech: ["Next.js", "SEO", "Vercel", "Responsive UI"],
-        }
+        },
+        {
+            title: "Call Center Dashboard",
+            image: callCenterImg,
+            url: "https://github.com/tu-usuario/call-center-dashboard",
+            github: "https://github.com/tu-usuario/call-center-dashboard",
+            description:
+                "Professional call center platform in active development. Full-stack system with JWT authentication, real-time WebSocket communication, complete call lifecycle management, and agent dashboard. Monorepo architecture with modular design for scalability.",
+            tech: ["NestJS", "Prisma", "PostgreSQL", "Socket.io", "React", "TypeScript"],
+            status: "In Development",
+            progress: "Phase 2/3",
+        },
+
     ]
 
     return (
@@ -87,7 +100,7 @@ export const ProjectsSection = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-                    {projects.reverse().map((project, idx) => (
+                    {[...projects].reverse().map((project, idx) => (
                         <div
                             key={project.title}
                             className="group h-full fade-up"
@@ -117,9 +130,21 @@ export const ProjectsSection = () => {
                                 </div>
 
                                 <div className="flex-1 flex flex-col p-4 md:p-5">
-                                    <h3 className="text-lg md:text-xl font-bold mb-2 text-cyan-300">
-                                        {project.title}
-                                    </h3>
+                                    <div className="flex items-center justify-between mb-2">
+                                        <h3 className="text-lg md:text-xl font-bold text-cyan-300">
+                                            {project.title}
+                                        </h3>
+                                        {project.status && (
+                                            <span className="text-xs px-2 py-1 rounded bg-pink-500/20 text-pink-300 border border-pink-500/30 whitespace-nowrap">
+                                                {project.status}
+                                            </span>
+                                        )}
+                                    </div>
+                                    {project.progress && (
+                                        <p className="text-xs text-gray-500 mb-2">
+                                            {project.progress}
+                                        </p>
+                                    )}
                                     <p className="text-xs md:text-sm text-gray-400 mb-4 leading-relaxed flex-1">
                                         {project.description}
                                     </p>
