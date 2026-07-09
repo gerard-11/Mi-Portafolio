@@ -3,6 +3,7 @@ import BassebalAppFoto from "../assets/baseball-app.png"
 import referixImg from "../assets/referixImg.png"
 import automotrizImg from "../assets/RianAutomotriz.png"
 import consultoriaDihImg from "../assets/consultoria-dih.svg"
+import boutiqueEstefanyImg from "../assets/boutique-estefany-login.webp"
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
 
 export const ProjectsSection = () => {
@@ -22,6 +23,17 @@ export const ProjectsSection = () => {
             github: "https://github.com",
             description: "Real-time sports analytics platform with external API integration. Features interactive drag-and-drop Dream Team builder using dnd-kit. Includes BFF pattern for CORS resolution.",
             tech: ["React", "dnd-kit", "API REST", "Vite"],
+        },
+        {
+            title: "Boutique Estefany",
+            image: boutiqueEstefanyImg,
+            imagePosition: "center top",
+            imageOrigin: "top center",
+            url: "https://boutique-estefany-backend.onrender.com",
+            github: "https://github.com/gerard-11/boutique-estefany-app",
+            description:
+                "Boutique Estefany is a mobile app built to digitize the operations of a real boutique: sales, customers, inventory, payments, and product scanning. I built it with React Native, Expo, Firebase Auth, and a REST API, separating data logic, state, and UI to maintain a scalable architecture. It includes secure login, roles, scanner functionality, inventory control, transaction history, and business rules for weekly payments and customer status.",
+            tech: ["React Native", "Expo", "Firebase Auth", "REST API", "Inventory"],
         },
         {
             title: "Referix App",
@@ -88,6 +100,10 @@ export const ProjectsSection = () => {
                                         src={project.image}
                                         alt={project.title}
                                         className="w-full h-full object-cover transition duration-500 group-hover:scale-110 brightness-75 group-hover:brightness-100"
+                                        style={{
+                                            objectPosition: project.imagePosition || "center",
+                                            transformOrigin: project.imageOrigin || "center",
+                                        }}
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent opacity-40"></div>
 

@@ -3,14 +3,20 @@ import FotoGer from "../assets/foto de presentacion.jpeg"
 export const HeroSection = () => {
     const stack=[
         "React",
+        "React Native",
         "Next.js",
         "JavaScript",
         "CSS3",
         "Tailwind CSS",
         "Responsive Design",
-        "REST APIs",
-        "AI-Assisted Development",
         "Component Architecture",
+        "REST APIs",
+        "NestJS",
+        "Firebase Auth",
+        "Prisma ORM",
+        "PostgreSQL",
+        "Expo/EAS",
+        "AI-Assisted Development",
     ]
     return (
         <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-950 via-gray-950 to-gray-900 text-white px-4 py-12 md:py-0 md:px-6">
@@ -35,7 +41,7 @@ export const HeroSection = () => {
                 <div className="order-2 md:order-1 w-full fade-up">
                     <div className="mb-2 md:mb-4">
                         <span className="inline-block text-xs md:text-sm font-mono text-cyan-400 mb-2 opacity-80">
-                            &lt; FRONTEND DEVELOPER &gt;
+                            &lt; FULLSTACK DEVELOPER &gt;
                         </span>
                     </div>
 
@@ -51,10 +57,9 @@ export const HeroSection = () => {
 Building scalable business applications with modern frontend, backend, and AI-powered development                    </h2>
 
                     <p className="mb-6 md:mb-8 text-sm md:text-base text-gray-400 leading-relaxed">
-                        Frontend Developer passionate about creating modern, functional, and scalable user interfaces.
-                        Specialized in React and JavaScript with expertise in API integration and responsive design.
-                        Leveraging AI tools to accelerate development workflows and improve code quality.
-                        Building efficient, performant applications with focus on UX. Full development lifecycle understanding.
+                        Fullstack Developer focused on building modern, functional, and scalable business applications.
+                        Experienced with React, React Native, NestJS, Firebase authentication, Prisma ORM, and PostgreSQL.
+                        Leveraging AI tools like Codex and Claude to accelerate development workflows, improve code quality, and iterate faster from frontend to backend deployment.
                     </p>
 
                     {/* TECH STACK */}

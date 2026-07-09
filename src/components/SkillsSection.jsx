@@ -5,22 +5,22 @@ export const SkillsSection = () => {
         {
             icon: FaCode,
             title: "Frontend Expertise",
-            skills: ["React", "Next.js", "JavaScript ES6+", "CSS3", "Tailwind CSS", "Responsive Design", "Component Architecture", "Web Performance"]
+            skills: ["React", "React Native", "Next.js", "JavaScript ES6+", "CSS3", "Tailwind CSS", "Responsive Design", "Responsive UI", "Component Architecture", "Native Components", "Web Performance"]
         },
         {
             icon: FaServer,
             title: "Backend & APIs",
-            skills: ["Node.js", "Express", "REST APIs", "JWT Auth", "API Integration", "Data Fetching"]
+            skills: ["Node.js", "Express", "NestJS", "REST APIs", "JWT Auth", "Firebase Auth", "API Integration", "Data Fetching", "Render Deployment"]
         },
         {
             icon: FaDatabase,
             title: "Data & Databases",
-            skills: ["PostgreSQL", "Prisma ORM", "TanStack Query", "State Management", "Data Modeling"]
+            skills: ["PostgreSQL", "Prisma ORM", "Data Modeling", "Migrations", "TanStack Query", "State Management"]
         },
         {
             icon: FaTools,
             title: "Modern Tools & AI",
-            skills: ["Git/GitHub", "Vite", "Docker", "Vercel", "AI-Assisted Coding", "Dev Automation"]
+            skills: ["Git/GitHub", "Vite", "Docker", "Expo Go", "EAS Build", "Vercel", "Codex", "Claude", "AI-Assisted Coding", "Dev Automation"]
         },
     ]
 
