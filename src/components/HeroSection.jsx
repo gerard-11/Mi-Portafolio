@@ -96,7 +96,7 @@ Building scalable business applications with modern frontend, backend, and AI-po
                             transition duration-300 ease-out
                             hover:shadow-lg hover:scale-105 active:scale-95"
                         >
-                            Ver Proyectos →
+                            View Projects →
                         </a>
                         <a
                             href="#contact"
@@ -105,7 +105,7 @@ Building scalable business applications with modern frontend, backend, and AI-po
                             transition duration-300 ease-out
                             hover:bg-cyan-500/10 hover:border-cyan-400 active:scale-95"
                         >
-                            Contacto
+                            Contact
                         </a>
                     </div>
                 </div>
