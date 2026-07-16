@@ -8,7 +8,7 @@
   <circle cx="200" cy="105" r="10" fill="#EF4444"/>
   <text x="246" y="115" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Consultoria DIH</text>
   <rect x="930" y="92" width="180" height="28" rx="14" fill="#2DD4BF"/>
-  <text x="975" y="113" fill="#062C2A" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Contacto</text>
+  <text x="975" y="113" fill="#062C2A" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Contact</text>
   <rect x="126" y="184" width="492" height="338" rx="24" fill="#E8F6F4"/>
   <text x="164" y="256" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">Consultoria</text>
   <text x="164" y="322" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800">DIH</text>

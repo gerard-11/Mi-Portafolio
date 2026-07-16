@@ -70,8 +70,8 @@ export const ProjectsSection = () => {
         {
             title: "Call Center Dashboard",
             image: callCenterImg,
-            url: "https://github.com/tu-usuario/call-center-dashboard",
-            github: "https://github.com/tu-usuario/call-center-dashboard",
+            url: "https://github.com/gerard-11/call-center-dashboard",
+            github: "https://github.com/gerard-11/call-center-dashboard",
             description:
                 "Professional call center platform in active development. Full-stack system with JWT authentication, real-time WebSocket communication, complete call lifecycle management, and agent dashboard. Monorepo architecture with modular design for scalability.",
             tech: ["NestJS", "Prisma", "PostgreSQL", "Socket.io", "React", "TypeScript"],
