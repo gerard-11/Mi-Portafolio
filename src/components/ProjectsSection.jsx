@@ -2,6 +2,7 @@ import Pelis4uFoto from "../assets/pelis4u-app.png"
 import BassebalAppFoto from "../assets/baseball-app.png"
 import referixImg from "../assets/referixImg.png"
 import automotrizImg from "../assets/RianAutomotriz.png"
+import rianAppImg from "../assets/rian-automotriz.png"
 import consultoriaDihImg from "../assets/consultoria-dih.svg"
 import boutiqueEstefanyImg from "../assets/boutique-estefany-login.webp"
 import callCenterImg from "../assets/call-center-dashboard.svg"
@@ -58,6 +59,15 @@ export const ProjectsSection = () => {
                 "GitHub Actions",
                 "CI/CD"
             ],
+        },
+        {
+            title: "Rian Automotriz App",
+            image: rianAppImg,
+            url: "https://rian-app-iota.vercel.app/login",
+            github: "https://github.com/gerard-11/rian_app",
+            description:
+                "Management application for Rian Automotriz, built as a dedicated product separate from the public business landing page.",
+            tech: ["React", "Vite", "Web App"],
         },
         {
             title: "Consultoria DIH",

@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 PruebaFake.js
+# AI contribution rules and proposed changes
+AI_CONTRIBUTION_RULES.md
+proposed_changes/
