@@ -6,6 +6,7 @@ import rianAppImg from "../assets/rian-automotriz.png"
 import consultoriaDihImg from "../assets/consultoria-dih.svg"
 import boutiqueEstefanyImg from "../assets/boutique-estefany-login.webp"
 import callCenterImg from "../assets/call-center-dashboard.svg"
+import impetuCreativoImg from "../assets/impetu-creativo.png"
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
 
 export const ProjectsSection = () => {
@@ -88,6 +89,15 @@ export const ProjectsSection = () => {
             status: "In Development",
             progress: "Phase 2/3",
         },
+        {
+            title: "Impetu Creativo",
+            image: impetuCreativoImg,
+            imageFit: "contain",
+            url: "https://impetu-creativo.workgerwork.workers.dev/",
+            description:
+                "E-commerce platform for Impetu Creativo, a promotional products brand. The experience showcases seasonal catalogs, product categories, personalized merchandise, and quote-focused customer flows.",
+            tech: ["E-commerce", "Responsive UI", "Product Catalog"],
+        },
 
     ]
 
@@ -126,6 +136,7 @@ export const ProjectsSection = () => {
                                         style={{
                                             objectPosition: project.imagePosition || "center",
                                             transformOrigin: project.imageOrigin || "center",
+                                            objectFit: project.imageFit || "cover",
                                         }}
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-transparent to-transparent opacity-40"></div>
