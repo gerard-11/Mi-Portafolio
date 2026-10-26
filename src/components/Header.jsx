@@ -16,7 +16,7 @@ export const Header = () => {
                         Gerardo Rito
                     </h1>
                     <p className="text-xs text-gray-500">
-                        Frontend Developer
+                        Fullstack Developer
                     </p>
                 </div>
 
