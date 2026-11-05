@@ -93,7 +93,7 @@ export const ProjectsSection = () => {
             title: "Impetu Creativo",
             image: impetuCreativoImg,
             imageFit: "contain",
-            url: "https://impetu-creativo.workgerwork.workers.dev/",
+            url: "https://impetucreativo.mx/",
             description:
                 "E-commerce platform for Impetu Creativo, a promotional products brand. The experience showcases seasonal catalogs, product categories, personalized merchandise, and quote-focused customer flows.",
             tech: ["E-commerce", "Responsive UI", "Product Catalog"],
