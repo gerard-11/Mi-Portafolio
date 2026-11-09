@@ -98,6 +98,15 @@ export const ProjectsSection = () => {
                 "E-commerce platform for Impetu Creativo, a promotional products brand. The experience showcases seasonal catalogs, product categories, personalized merchandise, and quote-focused customer flows.",
             tech: ["E-commerce", "Responsive UI", "Product Catalog"],
         },
+        {
+            title: "gerdev Studio",
+            image: "https://gerdevstudio.com.mx/gerdev-logo.png",
+            imageFit: "contain",
+            url: "https://gerdevstudio.com.mx/",
+            description:
+                "Personal studio website for presenting custom software development, process automation, digital catalogs, and web solutions for businesses in Mexico and remote clients. Developed with Harness and a Spec-Driven Development approach.",
+            tech: ["React", "Harness", "Spec-Driven Development", "SEO", "Vercel"],
+        },
 
     ]
 
